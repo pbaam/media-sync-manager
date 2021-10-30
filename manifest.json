@@ -1,0 +1,12 @@
+{
+  "name": "media-sync-manager",
+  "version": "1.0",
+  "manifest": 2,
+  "content_scripts": {
+    "js": ["js.js"]
+  },
+  "permissions": [
+    "tabs",
+    "bookmarks"
+  ]
+}
