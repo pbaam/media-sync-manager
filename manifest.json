@@ -1,7 +1,7 @@
 {
   "name": "media-sync-manager",
-  "version": "1.0",
-  "manifest": 2,
+  "version": "1.0.1",
+  "manifest_version": 2,
   "content_scripts": {
     "js": ["js.js"]
   },
