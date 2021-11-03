@@ -1,1 +1,3 @@
-chrome.runtime.onMessage.addListener(function(request) { alert(request) })
+chrome.runtime.sendMessage({
+  url: window.location.href
+})
